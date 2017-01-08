@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body background="https://static.vecteezy.com/system/resources/previews/000/106/719/original/vector-abstract-blue-wave-background.jpg">
+<title> DHS 60 </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/DunmanHighSchoolCrest.png/120px-DunmanHighSchoolCrest.png"/>
+ <center><font color="black"><font size="5"><h1>Dunman High School</h1></center>
+ <center><font color="black"><font size="3"><h2>Google-Code-In 2017</h2></center>
+
+<ul>
+  <li><a class="active" a href="file:///C:/Users/Shawen/Desktop/Computing%20project/yr1.html">About me</a></li>
+  
+  <li><a href="file:///C:/Users/Shawen/Desktop/Computing%20project/yr2.html">Interests</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Projects</a>
+    <div class="dropdown-content" id="myDropdown">
+    </div>
+  </li>
+</ul>
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  
+</script>
+</body>
+</html>
