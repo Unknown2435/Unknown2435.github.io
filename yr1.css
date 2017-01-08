@@ -1,18 +1,10 @@
-<html>
-<link rel="stylesheet" href="yr1.css" />
-<body background="http://static.vecteezy.com/system/resources/previews/000/094/491/original/polygonal-texture-background-vector.jpg">
-<center><font size="5"><h1><font face="Comic Sans">About Me</h1></center>
-<body>
-<img src="https://scontent-sit4-1.xx.fbcdn.net/v/t1.0-9/15492212_10154846960018970_7248710206896365291_n.jpg?oh=3298a0592cc9349a53c30d3f16507b00&oe=59131DDE" alt="HTML5 Icon" width="220" height="288">
-<h1><font color="black"><font size="5"> Name: Shawen Teo </h1>
-<h2><font color="black"><font size="5"> Age: 15</h2>
-<h3><font color="black"><font size="5"> School: Dunman High School</h3>
-<a href="dunmanhigh.moe.edu.sg/">School Website</a>
-<h4><font color="black"><font size="5"> Country of residence: Singapore</h4>
-<a href="http://www.yoursingapore.com/en.html">Learn more about Singapore</a>
-<h5><font color="black"><font size="5"> CCA: Infocomm Club
-<h6><font color="black"><font size="5"> External CCA: Tchoukball</h6>
-<h7><font color="black"><font size="5"> Fun Fact: I always sleep till 2pm</h7>
+body {
+background-image: url(http://static.vecteezy.com/system/resources/previews/000/094/491/original/polygonal-texture-background-vector.jpg); /*You will specify your image path here.*/
 
-</body>
-</html>
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
